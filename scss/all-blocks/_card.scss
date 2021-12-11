@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+        font-size: 48px;
+        color: $color;
+     }
+     &__desc{
+         color:#6C8294;
+        line-height: 28px;
+        width:400px;
+     }
+}

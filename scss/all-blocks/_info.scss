@@ -1,0 +1,15 @@
+.info{
+    align-items: center;
+    display: flex;
+    &__bank{
+        padding: 0 140px;
+        &__title{
+            color: $color;
+        }
+        &__desc{
+            line-height: 25px;
+            color: #6C8294;
+            width:300px;
+        }
+    }
+}

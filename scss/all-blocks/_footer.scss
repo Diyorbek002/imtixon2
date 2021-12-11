@@ -1,0 +1,32 @@
+.container{
+    max-width: 1550px;
+    margin:100px auto;
+    padding: 0 30px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__box{
+        &__items{
+            display: flex;
+            margin-right:auto;
+        }
+        &__item{
+            list-style: none;
+            padding-left: 40px;
+            color: #98a8c9;
+            font-size: 15px;
+            font-weight: 700;
+            &__a{
+                text-decoration: none;
+                color: $color; 
+        }
+        }
+            
+        &__item
+            &__a:active{
+                color: #e8edf1;
+        }
+    }
+}

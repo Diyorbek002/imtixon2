@@ -1,0 +1,41 @@
+.container{
+        max-width: 1550px;
+        margin:100px auto;
+        padding: 0 30px;
+    }
+.block{
+        display: flex;
+        align-items: center;
+        background-color: #1B262F;
+        padding: 100px;
+        &__content{
+                margin-left: 50px;
+              &__title{
+                 font-size: 48px;
+                 color: #FBFCFE;
+              }  
+              &__desc{
+                line-height: 30px;
+                padding:24px 0 24px 0;
+                color: #FBFCFE;
+                width: 400px;
+              }
+              &__button{
+                padding:14px 32px;
+                border: 1px solid #FBFCFE;
+                border-radius:24px;
+                text-decoration: none;
+                color:#FBFCFE;
+              }
+        }
+}
+.pictures{
+        margin-left: auto;
+        padding-top: 160px;
+        width: 600px;
+        &__a{
+            &__img{
+                padding: 0 40px 40px 0;
+             }
+        }
+}
